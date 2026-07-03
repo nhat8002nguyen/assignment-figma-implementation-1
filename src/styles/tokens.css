@@ -1,0 +1,25 @@
+:root {
+  --container-padding: 24px;
+  --hero-min-height: 560px;
+  --color-primary: #22333b;
+  --color-text: #1e1e1e;
+  --color-muted: #595959;
+  --color-broker-bg: #d0d0d0;
+  --color-page-bg: #f1efef;
+  --color-stats-bg: rgba(30, 30, 30, 0.7);
+  --color-white: #ffffff;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding: 48px;
+    --hero-min-height: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: 100px;
+    --hero-min-height: 1024px;
+  }
+}
