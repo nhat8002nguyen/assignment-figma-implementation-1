@@ -12,14 +12,6 @@ export default function SiteHeader() {
         <NavLinks />
       </div>
 
-      <div className="site-header__nav-compact site-header__nav-compact--mobile">
-        <MoreMenu includeDocuments />
-      </div>
-
-      <div className="site-header__nav-compact site-header__nav-compact--tablet">
-        <MoreMenu />
-      </div>
-
       <div className="site-header__actions">
         <button type="button" className="site-header__button site-header__button--outline site-header__button--documents">
           Documents
@@ -27,6 +19,14 @@ export default function SiteHeader() {
         <button type="button" className="site-header__button site-header__button--filled">
           Contact
         </button>
+
+        <div className="site-header__nav-compact site-header__nav-compact--mobile">
+          <MoreMenu includeDocuments />
+        </div>
+
+        <div className="site-header__nav-compact site-header__nav-compact--tablet">
+          <MoreMenu />
+        </div>
       </div>
     </header>
   );
