@@ -7,7 +7,7 @@ Responsive implementation of the **tonomo** property listing hero screen from Fi
 ## Run locally
 
 ```bash
-npm install --cache /tmp/npm-cache-figma
+npm install
 npm run dev
 ```
 
