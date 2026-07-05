@@ -11,7 +11,7 @@ npm install --cache /tmp/npm-cache-figma
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) and test at **1440px**, **768px**, and **375px**.
+Open [http://localhost:5173](http://localhost:5173) and test at **1440px**, **1024px** (iPad Pro), **768px**, and **375px**.
 
 ## Structure
 
@@ -34,8 +34,10 @@ src/
 | Name | Range | Nav behavior |
 |---|---|---|
 | Mobile | <768px | More menu (nav + Documents); Contact visible |
-| Tablet | 768–1023px | More menu (nav only); Documents + Contact visible |
-| Desktop | ≥1024px | Full inline nav; Documents + Contact visible |
+| Tablet | 768–1279px | More menu (nav only); Documents + Contact visible |
+| Desktop | ≥1280px | Full inline nav; Documents + Contact visible |
+
+Tablet range includes iPad Pro (1024px). Desktop starts at 1280px so devices at exactly 1024px wide stay on the tablet layout.
 
 ## BEM blocks
 
@@ -50,7 +52,9 @@ src/
 
 - **Font:** IBM Plex Sans (300, 400, 500, 600, 700)
 - **Colors:** `#22333b`, `#1e1e1e`, `#595959`, `#d0d0d0`, `#f1efef`, `rgba(30,30,30,0.7)`
-- **Breakpoints:** 768px (tablet), 1024px (desktop)
+- **Breakpoints:** 768px (tablet), 1280px (desktop)
+- **Container padding:** 24px (mobile) · 48px (tablet) · 100px (desktop)
+- **Hero min-height:** 560px (mobile) · 720px (tablet) · 1024px (desktop)
 
 ## Verify responsive layout
 
@@ -58,4 +62,4 @@ src/
 npm run dev
 ```
 
-Test at **1440px**, **768px**, and **375px** in browser devtools.
+Test at **1440px**, **1024px** (iPad Pro), **768px**, and **375px** in browser devtools.

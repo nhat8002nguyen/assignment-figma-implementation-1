@@ -160,7 +160,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .site-header__nav-desktop {
     display: block;
     position: absolute;
