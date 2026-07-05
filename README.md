@@ -16,6 +16,7 @@ Open [http://localhost:5173](http://localhost:5173) and test at **1440px**, **10
 ## Structure
 
 ```
+images/                   # Responsive layout screenshots
 src/
 ├── components/
 │   ├── PropertyPage/       # Page wrapper (full-width)
@@ -38,6 +39,20 @@ src/
 | Desktop | ≥1280px | Full inline nav; Documents + Contact visible |
 
 Tablet range includes iPad Pro (1024px). Desktop starts at 1280px so devices at exactly 1024px wide stay on the tablet layout.
+
+## Screenshots
+
+### Mobile (<768px)
+
+![Mobile layout](images/mobile.png)
+
+### Tablet (768–1279px)
+
+![Tablet layout](images/tablet.png)
+
+### Desktop (≥1280px)
+
+![Desktop layout](images/desktop.png)
 
 ## BEM blocks
 
