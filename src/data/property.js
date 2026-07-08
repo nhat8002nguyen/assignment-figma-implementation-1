@@ -16,12 +16,8 @@ export const PROPERTY_STATS = [
   { label: 'Baths', value: '5' },
   { label: 'Living Area', value: '4' },
   { label: 'Lot Size', value: '11,000' },
+  { label: 'Offered at', value: '$1,350,000', isPrice: true },
 ];
-
-export const PROPERTY_PRICE = {
-  label: 'Offered at',
-  value: '$1,350,000',
-};
 
 export const BROKER = {
   name: 'Jane Doesmith',
